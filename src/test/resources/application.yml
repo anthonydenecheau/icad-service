@@ -1,22 +1,16 @@
 eureka:
   client:
     enabled: false  
-
+    
 spring:
-  jpa:
-    properties:
-      hibernate:  
-        dialect: "org.hibernate.dialect.H2Dialect"
-  datasource:
-    url: jdbc:h2:mem:db;Mode=Oracle
-    username: sa  
-    password: sa
-    platform: h2
-    continue-on-error: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
 
 example:
   property: "I AM IN THE DEFAULT"
 
-fixedDelay:
-  in:
-    milliseconds : "30000"
+authentification:
+  key[0]: "myPersonalKey"
+  value: "01/01/2057" 
