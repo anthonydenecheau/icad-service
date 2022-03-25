@@ -56,6 +56,7 @@ public class IcadDaoImpl implements IcadDao {
                     final LinkedCaseInsensitiveMap rs = (LinkedCaseInsensitiveMap) dog;
                     _dog = new Dog();
                     _dog.setValidity(FormatterUtils.handleStringNullValue(rs.get("VALIDE")));
+                    /*
                     _dog.setName(retreiveName(rs));
                     _dog.setGender(FormatterUtils.handleStringNullValue(rs.get("CODSEXE")));
                     _dog.setBirthDate(FormatterUtils.handleStringNullValue(rs.get("DTNAI")));
@@ -76,8 +77,8 @@ public class IcadDaoImpl implements IcadDao {
                     _owner.setZipCode(FormatterUtils.handleStringNullValue(rs.get("CODEPOS")));
                     _owner.setTown(FormatterUtils.handleStringNullValue(rs.get("VILLE")));
                     _owner.setCountry(FormatterUtils.handleStringNullValue(rs.get("CODPAYS")));
-                    
                     _dog.setOwner(_owner);
+                    */
                 }
             }
 

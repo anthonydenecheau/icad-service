@@ -11,6 +11,7 @@ public class Dog {
    @ApiModelProperty(notes = "Dog registration", position = 1, allowEmptyValue = true)
    private String validity;
 
+   /*
    @ApiModelProperty(notes = "Dog name", position = 2, allowEmptyValue = true)
    private String name;
 
@@ -40,5 +41,10 @@ public class Dog {
 
    @ApiModelProperty(notes = "Dog owner", position = 11, allowEmptyValue = true)
    private Owner owner;
-
+   */
+   
+   public Dog withValidity(String validity) {
+      this.setValidity(validity);
+      return this;
+   }   
 }

@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.scc.icad.domain.Dog;
-import com.scc.icad.domain.Owner;
 import com.scc.icad.service.IcadService;
 
 import io.swagger.annotations.Api;
