@@ -1,6 +1,6 @@
-#Default port is 8092
+#Default port is 8094
 server:
-  port: 8092
+  port: 8094
   
 spring:
   mvc:
